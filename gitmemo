@@ -1,0 +1,33 @@
+
+git init
+
+git status 
+/*
+gitの現状を確認するのに利用する
+commitしていない奴らを観れる。
+*/
+
+git add [fileName]
+/*
+保存するファイルを選択
+*/
+
+git commit -m "変更点などを記載"
+
+git branch
+今あるブランチを表示する
+
+git branch [branchName]
+指定した名前のブランチを作成する
+
+git checkout [branchName]
+指定したブランチに移動する
+
+git branch -d [branchName]
+ブランチを消す
+
+
+git merge [branchName]
+指定したブランチを今いるブランチにまーじする。
+
+
